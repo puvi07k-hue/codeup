@@ -1,7 +1,3 @@
-# Experiment 1
-
-## Code
-```
 -- Table Creation
 CREATE TABLE Student (StudentID INT PRIMARY KEY, Name VARCHAR(30), Age INT);
 CREATE TABLE Courses (CourseID INT PRIMARY KEY, CourseName VARCHAR(20));
@@ -60,9 +56,3 @@ WHERE CourseID IN (
 -- Students whose age is greater than the average age of all students
 SELECT Name, Age FROM Students
 WHERE Age > (SELECT AVG(Age) FROM Students);
-```
-
-## Expected Output / Result
-These examples demonstrate simple queries, nested queries, and subqueries in SQL.
-
----
